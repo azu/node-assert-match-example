@@ -1,0 +1,31 @@
+{
+  "name": "assert-match-example",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/azu/node-assert-match-example",
+  "bugs": {
+    "url": "https://github.com/azu/node-assert-match-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/node-assert-match-example.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "main": "lib/node-assert-match-example.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "node index.mjs"
+  },
+  "volta": {
+    "node": "12.22.1"
+  }
+}
